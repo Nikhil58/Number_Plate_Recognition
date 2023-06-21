@@ -1,0 +1,22 @@
+Cloning URL:
+https://github.com/nicknochnack/TFODCourse
+
+Installing Dependencies:
+pip install ipykernel
+python -m pip install --upgrade pip
+python -m ipykernel install --user --name=tfodj
+
+python.exe -m pip install --upgrade pip
+
+To Activate Virtual Enivronment:
+ .\<venv_name>\Scripts\activate
+
+ %pip install --upgrade tf_slim
+
+ import tf_slim as slim
+
+
+ %pip install protobuf==3.20.0 --user
+
+
+ python TFODCourse\Tensorflow\models\research\object_detection\model_main_tf2.py --model_dir=Tensorflow\workspace\models\my_ssd_mobnet --pipeline_config_path=Tensorflow\workspace\models\my_ssd_mobnet\pipeline.config --num_train_steps=10000
